@@ -1,0 +1,63 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+body {
+    opacity: 1;
+    transition-duration: 0.7s;
+    transition-property: opacity;
+    /* background: rgba( 137, 106, 141, 0.6 ); */
+    background-image: url("images/Background_edit.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px ); */
+  }
+
+body.fade {
+opacity: 0;
+}
+
+.card {
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.60 );
+    width: 25rem; 
+    margin-top: 250px; 
+    border-radius: 25px; 
+    background-color: #ab72b4;
+}
+
+.card label
+{
+    color: #f0e2a8; 
+}
+
+.card .fieldz input 
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #b4b0b0;
+    margin-left: 15px;
+}
+
+.text-wrapper {
+    color: #ffbd59;
+}
+
+.card-body input
+{
+    background-color: #835766;
+    border: none;
+}
+
+.card-body input:hover
+{
+    background-color: rgb(204, 204, 26);
+    color: black;
+}
